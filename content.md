@@ -79,7 +79,7 @@ git push origin --all
 ## Now the above merging has some effects on the feature branch that you just merged into develop.The feature branch (`login-feature`) gets deleted both locally and remotely after merging .ie after running this command
 
  <!-- 
- git flow feature finish login-feature
+ git flow feature finish login-feature // merges feature branch to develop.
   -->
 
 `NB:After publishing feature branch to develop,then publishing develop to main..for each you must open a pull request`.
