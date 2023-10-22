@@ -29,7 +29,10 @@ git flow init
 ## After intializing gitflow,and being swirched to develop branch you need to commit and push the changes in develop branch,using the following command.
 
 <!--
+ a must step otherwise publish changes on feature branches wont be publish unitl index(develop is commited.
+
 git push -u origin develop
+
  -->
 
 `Creating branches from develop branch`
