@@ -26,7 +26,7 @@ git flow init
 
 ## The other branch input prompts(`feature,hotfix,release,bugfix and support`) can be left to be added later
 
-## After intializing gitflow,and being swirched to develop branch you need to commit and push the changes in develop branch,using the following command.
+## After intializing gitflow,and being switched to develop branch you need to commit and push the changes in develop branch,using the following command.
 
 <!--
  a must step otherwise publish changes on feature branches wont be publish unitl index(develop is commited.
@@ -75,3 +75,11 @@ git flow feature publish login-feature
 <!--
 git push origin --all
  -->
+
+`NB:After publishing feature branch to develop,then publishing develop to main..for each you must open a pull request`.
+
+`Pull Request`
+
+## Also known as a `merge request` in some version control systems like GitLab, is a fundamental concept in collaborative software development, particularly when using distributed version control systems like Git.
+
+## It's essentially a request to merge changes made in one branch into another branch, typically from a feature or topic branch into the main branch (e.g., 'develop' or 'main').
